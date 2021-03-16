@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+    font: 18px 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+h1,h2,p,ol{
+    margin: 0;
+    font-weight: 500;
+}
+h1, h2{
+    font: 16px 'Zhi Mang Xing';
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+html{
+    background-image: url("image/HWu44Bv.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+body{
+    margin: auto;
+    background-color: rgba(236, 240, 241,0.85);
+    max-width: 900px;
+    padding: 15px;
+    box-shadow: 0 10px 7px black;
+
+}
+main, header, nav , footer{
+    padding-bottom: 10px;
+}
+header h1{
+    line-height: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+nav h2 , section h2{
+    line-height: 45px;
+    background: #3498db;
+    padding-left: 5px;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+    color: rgba(236, 240, 241,1.0);
+}
+nav ol {
+    margin: 5px 0;
+}
+ol li {
+    line-height: 1.5rem;
+}
+section p{
+    padding: 5px;
+    line-height:1.5rem;
+    text-align: center;
+}
+section p img {
+    display: block;
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+h2.bookmark:target{
+    background: #FF0000;
+    color: #fafafa
+}
+footer{
+    outline: 0;
+}
+h1::before{
+    content: '\2605';
+    color: #FF0000;
+}
+h2::after{
+    content:'\203A';
+    padding-left: 5px;
+}
+footer::before{
+    content: '\276c''\0002F''\276D';
+}
